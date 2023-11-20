@@ -9,6 +9,7 @@ from . form import ApplyForm, JobForm
 from .filters import JobFilter
 
 # Create your views here.
+# test
 
 def job_list(request):
     job_list = Job.objects.all()
